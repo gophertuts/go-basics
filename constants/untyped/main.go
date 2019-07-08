@@ -1,1 +1,7 @@
-package untyped
+package main
+
+const (
+)
+
+func main() {
+}
