@@ -65,7 +65,20 @@ const (
 )
 ```
 
-## C Background
+## C background
+
+### How to run the C program
+
+```bash
+# cd into the project directory
+cd $GOPATH/src/github.com/gophertuts/go-basics/constants/c-vs-go
+
+# compile the program
+gcc main.c -o exec
+
+# run the program
+./exec
+```
 
 ## Resources
 
@@ -75,5 +88,7 @@ const (
 - [Identifiers](https://golang.org/ref/spec#Identifiers)
 - [Keywords](https://golang.org/ref/spec#Keywords)
 - [Numeric types](https://golang.org/ref/spec#Numeric_types)
+- [Representability](https://golang.org/ref/spec#Representability)
+- [Constant expressions](https://golang.org/ref/spec#Constant_expressions)
 - [Introduction to Numeric Constants](https://www.ardanlabs.com/blog/2014/04/introduction-to-numeric-constants-in-go.html)
 - [A Tour of Go - Basics](https://tour.golang.org/basics/1)
