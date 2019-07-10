@@ -17,6 +17,6 @@ func main() {
 	fmt.Println(3.141592653589793 / Pi) // 0.9999999999999999
 
 	// constant 36893488147419103230 overflows int
-	// fmt.Println(HugeMathematicallyExact)
-	fmt.Println(HugeMathematicallyExact / MaxUint)
+	//fmt.Println(uint(HugeMathematicallyExact))
+	fmt.Println(HugeMathematicallyExact / MaxUint) // 2
 }

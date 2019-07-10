@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gophertuts/go-basics/constants/const-scope/p1"
+	"github.com/gophertuts/go-basics/constants/scope/p1"
 )
 
 const (
