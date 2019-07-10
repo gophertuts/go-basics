@@ -6,8 +6,9 @@ This section includes exercises and small projects which illustrate the basics o
 
 ## Section overview
 
-- Variables & Types
-- Others are coming up...
+- [Go Learning Resources](https://github.com/gophertuts/go-basics/blob/master/go-learning-resources)
+- [Go Program Anatomy](https://github.com/gophertuts/go-basics/blob/master/go-program-anatomy)
+- Others topics are coming up...
 
 ### Installation
 
