@@ -129,4 +129,7 @@ Be careful and stay away from spamming your Inbox
 
 Hope this was useful. Now go ahead and use this knowledge! 🚀🚀🚀
 
-<img src="https://github.com/gophertuts/go-basics/raw/master/gophertuts.svg?sanitize=true" width="150px"/>
+Back to
+[Go Basics](https://github.com/gophertuts/go-basics)
+
+<img src="https://github.com/gophertuts/go-basics/raw/master/gophertuts.svg?sanitize=true" width="50px"/>

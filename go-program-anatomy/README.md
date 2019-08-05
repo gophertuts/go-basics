@@ -81,3 +81,8 @@ Play around with different `GOOS` & `GOARCH` values, here are some examples:
 - [Go Build](https://golang.org/pkg/go/go-build/)
 - [Go supported OS & Architectures](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63)
 - [Go source code](https://golang.org/src/)
+
+Back to
+[Go Basics](https://github.com/gophertuts/go-basics)
+
+<img src="https://github.com/gophertuts/go-basics/raw/master/gophertuts.svg?sanitize=true" width="50px"/>
