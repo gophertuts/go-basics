@@ -52,6 +52,7 @@ go env | grep GOHOSTARCH
 - [Unsafe package](https://golang.org/pkg/unsafe/)
 - [Unsafe - Go101](https://go101.org/article/unsafe.html)
 - [UintPtr vs Unsafe pointer](https://utcc.utoronto.ca/~cks/space/blog/programming/GoUintptrVsUnsafePointer)
+- [Complex numbers](https://en.wikipedia.org/wiki/Complex_number)
 
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
