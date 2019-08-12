@@ -8,6 +8,9 @@ This section includes exercises and small projects which illustrate the basics o
 
 - [Go Learning Resources](https://github.com/gophertuts/go-basics/blob/master/go-learning-resources)
 - [Go Program Anatomy](https://github.com/gophertuts/go-basics/blob/master/go-program-anatomy)
+- [Number Systems](https://github.com/gophertuts/go-basics/blob/master/number-systems)
+- [Basic Types](https://github.com/gophertuts/go-basics/blob/master/basic-types)
+- [Constants](https://github.com/gophertuts/go-basics/blob/master/constants)
 - Others topics are coming up...
 
 ### Installation

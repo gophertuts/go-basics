@@ -58,6 +58,10 @@ go env | grep GOHOSTARCH
 - [How are floating numbers stored in memory](https://stackoverflow.com/questions/7644699/how-are-floating-point-numbers-stored-in-memory)
 - [How to normalize a mantissa](https://stackoverflow.com/questions/28800565/how-to-normalize-a-mantissa)
 
+
+## Related tutorials
+- [Number systems](https://github.com/gophertuts/go-basics/blob/master/number-systems)
+
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
 
