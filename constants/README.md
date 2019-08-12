@@ -93,6 +93,10 @@ gcc main.c -o exec
 - [Introduction to Numeric Constants](https://www.ardanlabs.com/blog/2014/04/introduction-to-numeric-constants-in-go.html)
 - [A Tour of Go - Basics](https://tour.golang.org/basics/1)
 
+## FEEDBACK ⚗
+
+[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
 

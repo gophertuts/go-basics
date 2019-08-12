@@ -62,6 +62,10 @@ go env | grep GOHOSTARCH
 ## Related tutorials
 - [Number systems](https://github.com/gophertuts/go-basics/blob/master/number-systems)
 
+## FEEDBACK ⚗
+
+[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
 

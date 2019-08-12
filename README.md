@@ -150,6 +150,10 @@ go get -u golang.org/x/tools/cmd/goimports
 
 [Go WORKSPACE explained](https://github.com/gophertuts/go-basics/blob/master/go-workspace.md)
 
+## FEEDBACK ⚗
+
+[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+
 Happy hacking gophers 🚀🚀🚀
 
 <img src="https://github.com/gophertuts/go-basics/raw/master/gophertuts.svg?sanitize=true" width="150px"/>

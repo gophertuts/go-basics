@@ -16,6 +16,10 @@
 - [Zero page](https://en.wikipedia.org/wiki/Zero_page)
 - [Go playground exercise](https://play.golang.org/p/RzAfXqZ6XiY)
 
+## FEEDBACK ⚗
+
+[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
 

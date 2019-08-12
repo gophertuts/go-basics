@@ -129,6 +129,10 @@ Be careful and stay away from spamming your Inbox
 
 Hope this was useful. Now go ahead and use this knowledge! 🚀🚀🚀
 
+## FEEDBACK ⚗
+
+[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
 

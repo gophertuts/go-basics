@@ -82,6 +82,10 @@ Play around with different `GOOS` & `GOARCH` values, here are some examples:
 - [Go supported OS & Architectures](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63)
 - [Go source code](https://golang.org/src/)
 
+## FEEDBACK ⚗
+
+[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
 
