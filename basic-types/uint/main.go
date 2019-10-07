@@ -10,14 +10,14 @@ const (
 )
 
 var (
-	greatestUint32 = ^uint32(0)
-	greatestUint64 = ^uint64(0)
-	uInt64 uint64 = 12.0 // default conversion to int64
-	uInt32 = int32(uInt64) // explicit conversion to int32
-	f64 = 12.5
-	uInt64V2 = int64(f64) // explicit conversion to int64
-	c = 'A' // rune = int32
-	r rune = 'B'
+	greatestUint32        = ^uint32(0)
+	greatestUint64        = ^uint64(0)
+	uInt64         uint64 = 12.0          // default conversion to int64
+	uInt32                = int32(uInt64) // explicit conversion to int32
+	f64                   = 12.5
+	uInt64V2              = int64(f64) // explicit conversion to int64
+	c                     = 'A'        // rune = int32
+	r              rune   = 'B'
 )
 
 func main() {

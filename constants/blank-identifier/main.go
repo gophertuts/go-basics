@@ -16,6 +16,6 @@ const (
 
 func main() {
 	// unused (ignored) error value
-	f, _ := os.Open("filename")
+	f, _ := os.Open("filename.txt")
 	log.Print(f.Name())
 }
