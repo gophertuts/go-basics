@@ -5,69 +5,18 @@
 - Typed
 - Untyped (Kind)
 
-## Const declaration examples
+## Facts about constants
 
-```go
-package main
-const (
-	// bool
-	t = true
-	f bool = false
-	
-	// numeric
-	num1 = 10
-	num2 int64 = 20
-	num3 = 15 + 3i
-	
-	// overflows
-	huge = 10 << 100
-	
-	// rune (char)
-	r1 = 'A'
-	r2 = '\u212A'
-	r3 = '你'
-	
-	// string
-	hello_world = "Hello World"
-	_underscore = "Lodash"
-	
-	// ignored
-	_ = 125 + 13i
-	
-	// visibility
-	Exported = 10
-	unexported = 0
-)
-```
-
-## Iota examples
-
-```go
-package main
-
-// week days
-const (
-	Sunday = iota + 1
-	Monday
-	Tuesday
-	Wednesday
-	Thursday
-	Friday
-	Saturday
-)
-
-// byte multiples
-const (
-	_ = iota
-	KB = 1 << (iota * 10)
-	MB
-	GB
-)
-```
+- Cannot be reassigned or redeclared
+- Can only hold scalar values
+- Can hold large high precision numbers
+- Can be created from expression of other constants
+- Can be untyped (Kind)
+- Constants only **exist** during **compilation time**
 
 ## C background
 
-### How to run the C program
+#### How to run the C program
 
 ```bash
 # cd into the project directory
@@ -95,7 +44,7 @@ gcc main.c -o exec
 
 ## FEEDBACK ⚗
 
-[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+[GopherTuts TypeForm](http://feedback.gophertuts.com)
 
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
