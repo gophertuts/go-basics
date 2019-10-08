@@ -11,6 +11,8 @@ This section includes exercises and small projects which illustrate the basics o
 - [Number Systems](https://github.com/gophertuts/go-basics/blob/master/number-systems)
 - [Basic Types](https://github.com/gophertuts/go-basics/blob/master/basic-types)
 - [Constants](https://github.com/gophertuts/go-basics/blob/master/constants)
+- [Packages](https://github.com/gophertuts/go-basics/blob/master/packages)
+- [Package Management](https://github.com/gophertuts/go-basics/blob/master/package-management)
 - Others topics are coming up...
 
 ### Installation

@@ -1,4 +1,4 @@
-# Packages in Go
+# Package management in Go
 
 ## Resources
 
