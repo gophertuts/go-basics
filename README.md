@@ -154,7 +154,7 @@ go get -u golang.org/x/tools/cmd/goimports
 
 ## FEEDBACK ⚗
 
-[GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
+[GopherTuts TypeForm](https://feedback.gophertuts.com)
 
 Happy hacking gophers 🚀🚀🚀
 
