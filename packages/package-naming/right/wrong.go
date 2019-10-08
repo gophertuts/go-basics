@@ -1,0 +1,4 @@
+package wrong
+
+func New() {
+}

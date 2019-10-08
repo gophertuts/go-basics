@@ -1,0 +1,4 @@
+package anotherWeirdPkg
+
+func W() {
+}

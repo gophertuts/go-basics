@@ -1,3 +1,3 @@
-package main
+package controllers
 
 // THIS IS JUST A PLACEHOLDER
