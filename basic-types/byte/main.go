@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("uint value", b2, "string value", string(b2))
 	fmt.Println(b3)
 	// automatic conversion to 'uint8'
-	fmt.Printf("value of: A + B = %[1]v | type: %[1]T\n", 'A' + b2)
+	fmt.Printf("value of: A + B = %[1]v | type: %[1]T\n", 'A'+b2)
 	// no conversion is done, falling back to 'int32' aka 'rune'
-	fmt.Printf("value of: A + B = %[1]v | type: %[1]T\n", 'A' + 'B')
+	fmt.Printf("value of: A + B = %[1]v | type: %[1]T\n", 'A'+'B')
 }

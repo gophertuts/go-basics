@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	Exported = "exported"
+	Exported   = "exported"
 	unExported = 10
 )
 

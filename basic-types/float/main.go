@@ -6,9 +6,9 @@ import (
 )
 
 var (
-	f32 float32 = 5 // automatic conversion to float32
-	f64 float64 = 13 // automatic conversion to float64
-	f64_2 = 13.2 // automatic conversion to float64
+	f32   float32 = 5    // automatic conversion to float32
+	f64   float64 = 13   // automatic conversion to float64
+	f64_2         = 13.2 // automatic conversion to float64
 )
 
 func main() {

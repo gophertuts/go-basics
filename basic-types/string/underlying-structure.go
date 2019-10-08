@@ -21,7 +21,7 @@ func main() {
 	var pb *byte
 	s := "Hello World"
 	fmt.Println(unsafe.Sizeof(_string{})) // 8/16B => 64/128b
-	fmt.Println(unsafe.Sizeof(pb)) // 4/8B => 64b
-	fmt.Println(unsafe.Sizeof(b))  // 4/8B => 64b
-	fmt.Println(unsafe.Sizeof(s))  // 8/16B => 128b
+	fmt.Println(unsafe.Sizeof(pb))        // 4/8B => 64b
+	fmt.Println(unsafe.Sizeof(b))         // 4/8B => 64b
+	fmt.Println(unsafe.Sizeof(s))         // 8/16B => 128b
 }

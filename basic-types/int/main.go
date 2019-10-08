@@ -10,12 +10,12 @@ const (
 )
 
 var (
-	i64 int64 = 12.0 // default conversion to int64
-	i32 = int32(i64) // explicit conversion to int32
-	f64 = 12.5
-	i64_2 = int64(f64) // explicit conversion to int64
-	c = 'A' // rune = int32
-	r rune = 'B'
+	i64   int64 = 12.0       // default conversion to int64
+	i32         = int32(i64) // explicit conversion to int32
+	f64         = 12.5
+	i64_2       = int64(f64) // explicit conversion to int64
+	c           = 'A'        // rune = int32
+	r     rune  = 'B'
 )
 
 func main() {
