@@ -13,6 +13,7 @@ This section includes exercises and small projects which illustrate the basics o
 - [Constants](https://github.com/gophertuts/go-basics/blob/master/constants)
 - [Packages](https://github.com/gophertuts/go-basics/blob/master/packages)
 - [Package Management](https://github.com/gophertuts/go-basics/blob/master/package-management)
+- [Go modules](https://github.com/gophertuts/go-basics/blob/master/go-modules)
 - Others topics are coming up...
 
 ### Installation
