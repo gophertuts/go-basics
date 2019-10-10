@@ -12,6 +12,14 @@ go get pkg
 # Downloads v1.0.0 of 'pkg' package
 go get pkg@v1.0.0
 
+# Downloads 'pkg' package at git commit hash
+go get pkg@af044c0995fe
+
+# Locks the revision number for this package
+# to prevent future breaking changes
+go get github.com/lestrrat/go-jwx@b7d4802
+cat go.mod
+
 # Downloads or updates 'pkg' package
 go get -u pkg
 
