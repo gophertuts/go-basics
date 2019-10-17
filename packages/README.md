@@ -19,7 +19,14 @@ go run services/s1.go
 
 ## Resources
 
+- [Go packages](https://www.callicoder.com/golang-packages/)
+- [Naming](https://talks.golang.org/2014/names.slide#1)
+- [Package names](https://blog.golang.org/package-names)
+- [Code review comments](https://github.com/golang/go/wiki/CodeReviewComments)
 - [Migrating to Go modules](https://blog.golang.org/migrating-to-go-modules)
+- [Go project structure](https://vsupalov.com/go-folder-structure/)
+- [Go project layout](https://github.com/golang-standards/project-layout)
+- [Go project layout - Medium](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)
 
 ## FEEDBACK ⚗
 
