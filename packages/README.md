@@ -3,6 +3,9 @@
 #### Package types
 
 ```bash
+# Displays useful information about import paths
+go help importpath
+
 # cd into package types
 cd $GOPATH/src/github.com/gophertuts/go-basics/packages/package-types
 
