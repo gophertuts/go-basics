@@ -27,6 +27,7 @@ go run services/s1.go
 - [Go project structure](https://vsupalov.com/go-folder-structure/)
 - [Go project layout](https://github.com/golang-standards/project-layout)
 - [Go project layout - Medium](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)
+- [Best practices for industrial programming](https://youtu.be/PTE4VJIdHPg)
 
 ## FEEDBACK ⚗
 
