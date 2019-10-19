@@ -1,1 +1,0 @@
-# Go Project structure
