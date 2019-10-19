@@ -17,6 +17,12 @@ go run main.go
 go run services/s1.go
 ```
 
+#### Helpful information on Packages
+
+```bash
+go help modules
+```
+
 ## Resources
 
 - [Go packages](https://www.callicoder.com/golang-packages/)
