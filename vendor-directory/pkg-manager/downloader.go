@@ -12,8 +12,9 @@ import (
 
 const vendor = "vendor"
 
-func Download(depManager Manager) {
-	for dependency, version := range depManager.Dependencies {
+
+func Download(deps map[string]string) {
+	for dependency, version := range deps {
 		_, err := os.Stat(vendor)
 		if os.IsNotExist(err) {
 			createVendor(dependency)
@@ -21,10 +22,12 @@ func Download(depManager Manager) {
 			deleteVendor(dependency)
 			createVendor(dependency)
 		}
-		repo, err := git.PlainClone(path.Join(".", vendor, dependency), false, &git.CloneOptions{
-			URL:      "https://" + dependency,
-			Progress: os.Stdout,
-		})
+		repo, err := git.PlainClone(
+			path.Join(".", vendor, dependency),
+			false, &git.CloneOptions{
+				URL:      "https://" + dependency,
+				Progress: os.Stdout,
+			})
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -33,7 +36,10 @@ func Download(depManager Manager) {
 }
 
 func createVendor(dependency string) {
-	err := os.MkdirAll(path.Join(".", vendor, dependency), 0755)
+	err := os.MkdirAll(
+		path.Join(".", vendor, dependency),
+		0755,
+	)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -47,6 +53,10 @@ func deleteVendor(dependency string) {
 }
 
 func versionToHash(repo *git.Repository, version string) string {
+	if version == "master" {
+		head, _ := repo.Head()
+		return head.String()
+	}
 	tags, _ := repo.Tags()
 	for {
 		tag, err := tags.Next()
