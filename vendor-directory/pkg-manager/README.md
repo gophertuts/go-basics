@@ -3,12 +3,18 @@
 #### How to test
 
 ```bash
-# will generate pkg-manager binary located in $GOPATH/bin
+# generate pkg-manager binary and places it inside $GOPATH/bin
 go install
 
-# add $GOPATH/bin inside $PATH
+# export $GOPATH/bin and add it inside $PATH env variable
+echo "export GOBIN=$GOPATH/bin\nexport PATH=$GOBIN:$PATH" >> .bashrc
+echo "export GOBIN=$GOPATH/bin\nexport PATH=$GOBIN:$PATH" >> .zshrc
 
 # create a simple go project
+mkdir project-name
+touch go-pkg.json
+# or using
+pkg-manager init project-name
 
 # downloads all dependencies indicated in go-pkg.json
 pkg-manager get ./...
@@ -19,3 +25,10 @@ pkg-manager get ./...
 pkg-manager get github.com/user/repo@version
 pkg-manager get github.com/user/repo@GIT_COMMIT_HASH
 ```
+
+#### Improvements
+
+- Add recursive dependency tree feature
+- Add a lock file with detailed information about each dependency
+- Add a caching mechanism
+- Get rid of git checkout and only keep the code

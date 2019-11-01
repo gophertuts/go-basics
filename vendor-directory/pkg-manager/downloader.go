@@ -29,7 +29,7 @@ func Download(deps map[string]string) {
 				Progress: os.Stdout,
 			})
 		if err != nil {
-			log.Fatal(err)
+			log.Fatalf("%+v: %s", err, dependency)
 		}
 		checkout(repo, version)
 	}
