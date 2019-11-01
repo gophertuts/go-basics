@@ -32,3 +32,5 @@ pkg-manager get github.com/user/repo@GIT_COMMIT_HASH
 - Add a lock file with detailed information about each dependency
 - Add a caching mechanism
 - Get rid of git checkout and only keep the code
+- Add support for custom domains
+- Add support for raw git URLs code fetching
