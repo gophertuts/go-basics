@@ -21,8 +21,15 @@ go run server.go
 
 #### More info
 
+Note: import path checking is disabled when using
+Go modules
+
 ```bash
+# display useful information about Go import paths
 go help importpath
+
+# display useful information about Go specific env variables
+go help environment
 ```
 
 ## Resources
