@@ -17,6 +17,7 @@ This section includes exercises and small projects which illustrate the basics o
 - [Custom import paths](https://github.com/gophertuts/go-basics/blob/master/custom-import-paths)
 - [Package Management](https://github.com/gophertuts/go-basics/blob/master/package-management)
 - [Go modules](https://github.com/gophertuts/go-basics/blob/master/go-modules)
+- [Go module proxy](https://github.com/gophertuts/go-basics/blob/master/go-module-proxy)
 - Others topics are coming up...
 
 ### Installation

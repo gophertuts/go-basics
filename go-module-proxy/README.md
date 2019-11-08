@@ -1,9 +1,9 @@
-# `vendor` directory in Go
+# Go module proxy
 
 
 ## Medium version
 
-[Vendor directory in Go](https://medium.com/@gophertuts/packages-in-go-df5438123548)
+[Go module proxy](https://medium.com/@gophertuts/packages-in-go-df5438123548)
 
 ### More info
 
