@@ -36,6 +36,7 @@ go help importpath
 ## Resources
 
 - [Migrating to Go modules](https://blog.golang.org/migrating-to-go-modules)
+- [VGO module](https://research.swtch.com/vgo-module)
 - [Module configuration (private modules)](https://golang.org/cmd/go/#hdr-Module_configuration_for_non_public_modules)
 
 ## FEEDBACK ⚗
