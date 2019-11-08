@@ -12,7 +12,6 @@ import (
 
 const vendor = "vendor"
 
-
 func Download(deps map[string]string) {
 	for dependency, version := range deps {
 		_, err := os.Stat(vendor)

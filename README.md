@@ -13,6 +13,7 @@ This section includes exercises and small projects which illustrate the basics o
 - [Constants](https://github.com/gophertuts/go-basics/blob/master/constants)
 - [Packages](https://github.com/gophertuts/go-basics/blob/master/packages)
 - [Vendor directory](https://github.com/gophertuts/go-basics/blob/master/vendor-directory)
+- [Custom package manager](https://github.com/gophertuts/go-basics/blob/master/custom-package-manager)
 - [Custom import paths](https://github.com/gophertuts/go-basics/blob/master/custom-import-paths)
 - [Package Management](https://github.com/gophertuts/go-basics/blob/master/package-management)
 - [Go modules](https://github.com/gophertuts/go-basics/blob/master/go-modules)
