@@ -18,6 +18,7 @@ This section includes exercises and small projects which illustrate the basics o
 - [Package Management](https://github.com/gophertuts/go-basics/blob/master/package-management)
 - [Go modules](https://github.com/gophertuts/go-basics/blob/master/go-modules)
 - [Go module proxy](https://github.com/gophertuts/go-basics/blob/master/go-module-proxy)
+- [Internal directory](https://github.com/gophertuts/go-basics/blob/master/internal-directory)
 - Others topics are coming up...
 
 ### Installation
