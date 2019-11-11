@@ -15,7 +15,7 @@ cd $GOPATH/src/github.com/gophertuts/go-basics/vendor-directory/go-get-custom-do
 # fetch the package from custom URL
 go get -insecure 0.0.0.0/user/pkg
 
-# run an HTTPS server
+# spin an HTTP server
 go run server.go
 ```
 
