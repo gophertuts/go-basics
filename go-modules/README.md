@@ -33,7 +33,7 @@ go list -json ./...
 go help importpath
 ```
 
-## Resources 📖
+## Resources 💎
 
 - [Migrating to Go modules](https://blog.golang.org/migrating-to-go-modules)
 - [VGO module](https://research.swtch.com/vgo-module)

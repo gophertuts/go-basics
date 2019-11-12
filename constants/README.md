@@ -29,7 +29,7 @@ gcc main.c -o exec
 ./exec
 ```
 
-## Resources 📖
+## Resources 💎
 
 - [Constants](https://blog.golang.org/constants)
 - [Basic Kind](https://golang.org/pkg/go/types/#Basic.Kind)

@@ -46,7 +46,7 @@ go help importpath
 - Add support for custom domains
 - Add support for raw git URLs code fetching
 
-## Resources 📖
+## Resources 💎
 
 - [Go 1.5 vendor experiment](https://go.googlesource.com/proposal/+/master/design/25719-go15vendor.md)
 - [Vendor directories](https://golang.org/cmd/go/#hdr-Vendor_Directories)

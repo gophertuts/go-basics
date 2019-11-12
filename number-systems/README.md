@@ -8,7 +8,7 @@
 - Conversion from base 10 to N
 - Conversion from base N to 10
 
-## Resources 📖
+## Resources 💎
 
 - [Program memory allocation types](https://wiki.osdev.org/Program_Memory_Allocation_Types)
 - [Calling convention](https://wiki.osdev.org/Calling_Convention)

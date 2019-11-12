@@ -1,6 +1,6 @@
 # Package management in Go
 
-## Resources 📖
+## Resources 💎
 
 - [Migrating to Go modules](https://blog.golang.org/migrating-to-go-modules)
 
