@@ -1,7 +1,7 @@
 # `internal` directory in Go
 
 
-## Medium version
+## Medium version 📖
 
 [Go module proxy](https://medium.com/@gophertuts/packages-in-go-df5438123548)
 
@@ -13,7 +13,7 @@ go help importpath
 go help goproxy
 ```
 
-## Resources
+## Resources 📖
 
 - [Go 1.5 vendor experiment](https://go.googlesource.com/proposal/+/master/design/25719-go15vendor.md)
 - [Vendor directories](https://golang.org/cmd/go/#hdr-Vendor_Directories)

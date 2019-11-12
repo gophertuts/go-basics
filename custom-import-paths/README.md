@@ -1,6 +1,6 @@
 # Custom **import** paths in Go
 
-## Medium version
+## Medium version 📖
 
 [Custom import paths in Go](https://medium.com/@gophertuts/packages-in-go-df5438123548)
 
@@ -32,7 +32,7 @@ go help importpath
 go help environment
 ```
 
-## Resources
+## Resources 📖
 
 - [`go get` custom import path](https://jve.linuxwall.info/blog/index.php?post/2015/08/26/Hosting_Go_code_on_Github_with_custom_import_path)
 - [Remote import paths](https://golang.org/cmd/go/#hdr-Remote_import_paths)

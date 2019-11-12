@@ -45,7 +45,7 @@ go run main.go
 go env | grep GOHOSTARCH
 ```
 
-## Resources
+## Resources 📖
 
 - [String implementation](https://github.com/golang/go/blob/master/src/runtime/string.go)
 - [Strings - Go101](https://go101.org/article/string.html)

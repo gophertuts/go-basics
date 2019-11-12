@@ -76,7 +76,7 @@ Play around with different `GOOS` & `GOARCH` values, here are some examples:
 - `env GOOS=darwin GOARCH=386 go build`
 - `env GOOS=darwin GOARCH=amd64 go build`
 
-## Resources:
+## Resources 📖
 
 - [Go Build](https://golang.org/pkg/go/go-build/)
 - [Go supported OS & Architectures](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63)

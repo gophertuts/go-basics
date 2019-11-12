@@ -17,7 +17,8 @@ go build
 ./solution -filename="moving-water.txt"
 ```
 
-##### Resources:
+##### Resources 📖
+
 - https://golang.org/pkg/flag/
 - https://godoc.org/flag
 - https://golang.org/pkg/strings/#Trim

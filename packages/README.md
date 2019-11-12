@@ -23,11 +23,11 @@ go run services/s1.go
 go help modules
 ```
 
-# Medium version
+# Medium version 📖
 
 [Packages in Go](https://medium.com/@gophertuts/packages-in-go-df5438123548)
 
-## Resources
+## Resources 📖
 
 - [Go packages](https://www.callicoder.com/golang-packages/)
 - [Naming](https://talks.golang.org/2014/names.slide#1)
