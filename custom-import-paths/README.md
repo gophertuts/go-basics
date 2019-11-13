@@ -13,7 +13,7 @@
 cd $GOPATH/src/github.com/gophertuts/go-basics/vendor-directory/go-get-custom-domain
 
 # fetch the package from custom URL
-go get -insecure 0.0.0.0/user/pkg
+go get -insecure -u 0.0.0.0/user/pkg
 
 # spin an HTTP server
 go run server.go
