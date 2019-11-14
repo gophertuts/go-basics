@@ -98,6 +98,7 @@ go help environment
 - [`go get` custom import path](https://jve.linuxwall.info/blog/index.php?post/2015/08/26/Hosting_Go_code_on_Github_with_custom_import_path)
 - [Remote import paths](https://golang.org/cmd/go/#hdr-Remote_import_paths)
 - [Custom import path checking](https://docs.google.com/document/d/1jVFkZTcYbNLaTxXD9OcGfn7vYv5hWtPx9--lTx1gPMs/edit)
+- [GitLab Docker](https://docs.gitlab.com/omnibus/docker/)
 
 ## FEEDBACK ⚗
 
