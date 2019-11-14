@@ -21,6 +21,12 @@ go run server.go
 
 #### Run GitLab Docker server:
 
+Disclaimer: GitLab says it's not guaranteed to work on Windows,
+so if you happen to use Windows. You can try this out, but not
+sure it's going to reproduce or work properly.
+
+You can though try it on Linux, i.e. Ubuntu
+
 ```bash
 # run the docker container and expose port 443 and 8000
 # don't forget to map the volumes correctly as shown below
