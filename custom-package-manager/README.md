@@ -38,13 +38,15 @@ go help importpath
 
 #### Improvements
 
-- Add recursive dependency tree feature
-- Add a lock file with detailed information about each dependency
-- Add a caching mechanism
-- Get rid of git checkout and only keep the code
+- Add recursive dependency tree fetching
+- Add a lock file with detailed dependency tree
+- Add a caching mechanism and/or proxy mechanism
+- Implement Go's download protocol
+- Don't save git repositories, just the actual code
 - Add support for archives instead of VCS checkouts
-- Add support for custom domains
-- Add support for raw git URLs code fetching
+- Add the possibility to skip test files or non go files to save bandwidth
+- Add support for custom domains & custom import paths
+- Add support for multiple VCS systems
 
 ## Resources 💎
 
@@ -53,10 +55,23 @@ go help importpath
 - [VGO module](https://research.swtch.com/vgo-module)
 - [Go project structure](https://vsupalov.com/go-folder-structure/)
 - [Go project layout](https://github.com/golang-standards/project-layout)
+- [Dep package manager](https://github.com/golang/dep)
+- [Project Athens - the download protocol](https://medium.com/@arschles/project-athens-the-download-protocol-2b346926a818)
+- [Go module proxy protocol](https://golang.org/cmd/go/#hdr-Module_proxy_protocol)
+- [Go module proxy - Fatih Arslan](https://arslan.io/2019/08/02/why-you-should-use-a-go-module-proxy/)
+- [Go proxies](https://roberto.selbach.ca/go-proxies/)
+- [Athens - GitHub project](https://medium.com/@arschles/project-athens-the-download-protocol-2b346926a818)
+- [Go module sum](https://sum.golang.org/)
 
 ## FEEDBACK ⚗
 
 [GopherTuts TypeForm](http://feedback.gophertuts.com)
+
+## COMMUNITY 🙌
+
+[GopherTuts Discord](https://discord.gg/4sgecdh)
+
+---
 
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)

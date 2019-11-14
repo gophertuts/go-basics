@@ -162,6 +162,12 @@ go get -u golang.org/x/tools/cmd/goimports
 
 [GopherTuts TypeForm](https://feedback.gophertuts.com)
 
+## COMMUNITY 🙌
+
+[GopherTuts Discord](https://discord.gg/4sgecdh)
+
+---
+
 Happy hacking gophers 🚀🚀🚀
 
 <img src="https://github.com/gophertuts/go-basics/raw/master/gophertuts.svg?sanitize=true" width="150px"/>

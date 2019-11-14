@@ -66,6 +66,12 @@ go env | grep GOHOSTARCH
 
 [GopherTuts TypeForm](https://gophertuts.typeform.com/to/j2CJmC)
 
+## COMMUNITY 🙌
+
+[GopherTuts Discord](https://discord.gg/4sgecdh)
+
+---
+
 Back to
 [Go Basics](https://github.com/gophertuts/go-basics)
 
