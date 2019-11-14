@@ -19,6 +19,67 @@ go get -insecure -u 0.0.0.0/user/pkg
 go run server.go
 ```
 
+#### Run GitLab Docker server:
+
+```bash
+# run the docker container and expose port 443 and 8000
+# don't forget to map the volumes correctly as shown below
+# we use port 8000 to not collapse with port 80 which we need by server.go
+docker run --detach \
+  --hostname gitlab.example.com \
+  --publish 443:443 --publish 8000:80 \
+  --restart always \
+  --volume ~/Desktop/gitlab/config:/etc/gitlab \
+  --volume ~/Desktop/gitlab/log:/var/log/gitlab \
+  --volume ~/Desktop/gitlab/opt:/var/opt/gitlab \
+  gitlab/gitlab-ce:latest
+  
+# display real time logs for GitLab created container  
+docker logs --follow [CONTAINER_ID]
+
+# WAIT TILL IT FINISHES
+
+# open up localhost:8000
+
+# set up a new password, preferably something which uses
+# Uppercase, letters, numbers, alphanumeric characters
+# otherwise GitLab won't allow you to go further
+# something like: Pas$word123456
+
+# login with the credentials:
+# username: root
+# password: [PASSWORD_YOU_CREATED]
+
+# create a repository from the admin panel and name it `some-test`
+
+# clone the created repository on your local machine
+git clone http://localhost:8000/root/some-test.git
+
+# add the go pkg shown bellow and save it inside pkg.go
+
+git add -A
+
+git commit -m "initial commit"
+
+git push
+
+# input your username: root
+# input your password: which you created
+
+# DONE
+```
+
+###### pkg.go
+```go
+package pkg // import "0.0.0.0/user/pkg"
+
+import "fmt"
+
+func New() {
+	fmt.Println("Welcome to pkg! (GitLab - Docker)")
+}
+```
+
 #### More info
 
 Note: import path checking is disabled when using

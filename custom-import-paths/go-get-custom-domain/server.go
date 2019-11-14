@@ -30,10 +30,15 @@ var projects = map[string]struct {
 		vcs:       "git",
 		remoteURL: "https://gitlab.com/steevehook/some-test",
 	},
+	"gitlab-docker": {
+		vcs:       "git",
+		remoteURL: "http://localhost:8000/root/some-test.git",
+	},
 	"bitbucket-git": {
 		vcs:       "git",
 		remoteURL: "https://bitbucket.org/steevehook/some-test-git",
 	},
+	// BitBucket says they will stop Mercurial support by Feb 2020. Be aware
 	"bitbucket-hg": {
 		vcs:       "hg",
 		remoteURL: "https://bitbucket.org/steevehook/some-test-hg",
@@ -42,7 +47,7 @@ var projects = map[string]struct {
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		tpl := fmt.Sprintf(html, projects["bitbucket-hg"].vcs, projects["bitbucket-hg"].remoteURL)
+		tpl := fmt.Sprintf(html, projects["github"].vcs, projects["gitlhub"].remoteURL)
 		fmt.Fprint(w, tpl)
 	})
 	log.Fatal(http.ListenAndServe(":80", nil))
