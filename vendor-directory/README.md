@@ -5,13 +5,13 @@
 In this section we'll be talking about the `vendor` directory feature
 in Go.
 
-Since `Go 1.5`, the Go team decided to make our life easier and allow the
+Since `Go 1.5`, the Go team decided to make our life's easier and allowed the
 community to develop package managers, so we all enjoy downloading
 and installing specific locked versions of software, without
 breaking our precious applications.
 
 By the end of this tutorial you will perfectly know what the `vendor`
-directory is Go and how to make use of it.
+directory is in Go and how to make use of it.
 
 ## Medium version 📖
 
