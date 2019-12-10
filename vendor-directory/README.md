@@ -30,6 +30,7 @@ go help goproxy
 - [Go 1.5 vendor experiment](https://go.googlesource.com/proposal/+/master/design/25719-go15vendor.md)
 - [Vendor directories](https://golang.org/cmd/go/#hdr-Vendor_Directories)
 - [Import path checking](https://golang.org/cmd/go/#hdr-Import_path_checking)
+- [Go Modules](https://blog.golang.org/using-go-modules)
 - [VGO module](https://research.swtch.com/vgo-module)
 - [Athens project](https://docs.gomods.io)
 - [Athens project - GitHub](https://github.com/gomods/athens)
