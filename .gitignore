@@ -1,5 +1,4 @@
 .DS_Store
 .idea/
 **/vendor
-!vendor-directory/basic-vendor/vendor/
-!vendor-directory/basic-vendor/vendor/github.com/anonymous/nested/vendor/
+!vendor-directory/vendor/
