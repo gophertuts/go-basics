@@ -15,7 +15,7 @@ directory is in Go and how to make use of it.
 
 ## Medium version 📖
 
-[Vendor directory in Go](https://medium.com/@gophertuts/packages-in-go-df5438123548)
+[Vendor directory in Go](https://medium.com/@gophertuts/vendor-directory-in-go-723de6cab46a)
 
 ### More info
 
