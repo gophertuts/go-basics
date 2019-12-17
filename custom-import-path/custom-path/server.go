@@ -10,8 +10,8 @@ const html = `<!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="go-import" content="0.0.0.0/user/pkg %[1]s %[2]s">
-        <meta http-equiv="refresh" content="0; url=%[2]s">
+        <meta name="go-import" content="0.0.0.0/user/pkg %[1]s %[2]s"/>
+        <meta http-equiv="refresh" content="0; url=%[2]s"/>
     </head>
     <body>
         Nothing to see here; <a href="%[2]s">move along</a>.
