@@ -1,1 +1,0 @@
-# Variable naming in Go
