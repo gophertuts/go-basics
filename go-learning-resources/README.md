@@ -94,9 +94,9 @@ These are the courses I've finished when I first started to learn Go
 and recommend doing if you're like me and like learning from
 videos
 
-- [Learn How To Code: Google's Go (golang) Programming Language - T. McCleod](https://github.com/golang/go/wiki/Books)
-- [Web Development w/ Google’s Go (golang) Programming Language - T. McCleod](https://github.com/golang/go/wiki/Books)
-- [Go: The Complete Developer's Guide (Golang) - Stephen Grider](https://github.com/golang/go/wiki/Books)
+- [Learn How To Code: Google's Go (golang) Programming Language - T. McCleod](https://www.udemy.com/course/learn-how-to-code/)
+- [Web Development w/ Google’s Go (golang) Programming Language - T. McCleod](https://www.udemy.com/course/go-programming-language/)
+- [Go: The Complete Developer's Guide (Golang) - Stephen Grider](https://www.udemy.com/course/go-the-complete-developers-guide/)
 
 ## GitHub
 
